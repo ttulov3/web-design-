@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1 id="titulo">Formulario</h1>
+
+<form>
+       <fieldset class="grupo"> 
+
+    <div class="campo"> 
+        <label for="Fname"><strong>Nome:</strong></label><br>
+        <input type="text" name="fname" id="Fname"><br>
+    </div>
+
+    <br>
+
+    <div class="campo">
+        <label for="Gname"><strong>E-mail:</strong></label><br>
+        <input type="email" name="Gname" id="Gname"><br>
+    </div>
+
+    <br>
+
+    <div class="campo">
+        <label for="Tname"><strong>Telefone:</strong></label><br>
+        <input type="tel" name="Tname" id="Tname"><br>
+    </div>
+
+    <br>
+
+    <div class="campo">
+        <label for="Iname"><strong>Idade:</strong></label><br>
+        <input type="date" name="Iname" id="Iname">
+    </div>
+        
+    <br>
+
+    <div class="campo">
+        <label><strong>Sexo:</strong></label><br>
+
+        <input type="radio" id="Mascu" name="gender" value="Mascu" >
+        <Label for="Mascu"><strong>M</strong></Label>
+        <input type="radio" id="Femi" name="gender" value="Femi">
+        <label for="Femi"><strong>F</strong></label>
+
+    </div>
+
+    <br>
+
+    <div class="campo">
+        <label><strong>Tipo de Navegador Utilizado:</strong></label>
+
+        
+
+        <br><label for="Navegador1"><strong>Gloogle Crhome</strong></label>
+        <input type="checkbox" id="Navegador1" name="Google Chrome" value="Google Chrome">
+
+        <label for="Navegador2"><strong>Internet Explorer</strong></label>
+        <input type="checkbox" id="Navegador2" name="Internet Explorer" value="Internet Explorer">
+
+        <label for="Navegador3"><strong>Firefox</strong></label>
+        <input type="checkbox" id="Navegador3" name="Firefox" value="Firefox">
+
+        <label for="Navegador4"><strong>Safari</strong></label>
+        <input type="checkbox" id="Navegador4" name="Safari" value="Safari">
+
+        <label for="Navegador5"><strong>Outros</strong></label>
+        <input type="checkbox" id="Navegador5" name="Outros" value="Outros">
+    </div>
+
+    <br>
+
+    <div class="campo">
+        <label><strong>Mensagem:</strong></label><br>
+
+        <textarea rows="6" style="width: 26em" id="mensagem" name="mensagem"> Digite aqui sua mensagem...</textarea>
+    </div>
+<button type="submit" class="botao">Enviar</button>
+<button type="reset" class="botao">Limpar</button>
+
+
+</fieldset> 
+    </form>
+    
+</body>
+</html>
